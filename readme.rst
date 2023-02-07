@@ -1,9 +1,58 @@
-SNET merupakan admin panel yang dibuat melalui codeigniter dan sb-admin 2.
+*******************
+Overview
+*******************
 
-Cara Menggunakan SNET
+SNET is an admin panel created via codeigniter and sb-admin 2. CodeIgniter is an open-source PHP framework for building web applications. This project is a sample implementation of CodeIgniter 3.x.
 
-1. Download dulu,
-2. Ekstrak ke dalam folder /var/www/html atau c:\xampp\htdocs\.
-3. Ubah settingan user dan password database pada application/config/databases.php.
-4. Import snet.sql di assets/db/snet.sql melalui Phpmyadmin atau MySQL manajemen lainnya.
+*******************
+Features
+*******************
 
+- Role Management
+- Menu Management
+- Store
+
+*******************
+Requirements
+*******************
+
+- PHP 5.6 or greater
+- MySQL 5.5 or greater
+- CodeIgniter 3.x
+
+*******************
+Installation
+*******************
+
+1. Download the CodeIgniter 3.x source code
+2. Unzip the package to your local development environment
+3. Configure the `application/config/database.php` file to connect to your MySQL database
+4. Run the project by accessing `http://localhost/your-project-folder` in your web browser
+
+*******************
+Documentation
+*******************
+
+For further information on using CodeIgniter, please refer to the official `CodeIgniter User Guide <https://codeigniter.com/user_guide/>`_.
+
+*******************
+Contribute
+*******************
+
+This project is open source, so you are welcome to contribute. To report an issue or request a feature, please use the `GitHub issue tracker <https://github.com/varreltantio/snet/issues>`_.
+
+*******************
+Accounts
+*******************
+
+- Admin Role
+
+email: admin@gmail.com
+
+password: 123456
+
+- User Role
+
+email: user@gmail.com
+
+password: 123456
